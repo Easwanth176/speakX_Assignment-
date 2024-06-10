@@ -1,0 +1,107 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.twitter-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0d8bf0;
+}
+
+.error-message {
+  color: #f00;
+  margin-top: 5px;
+}
+
+.register {
+  margin-top: 20px;
+}
+
+.register p {
+  font-size: 14px;
+}
+
+.register p a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+/* Loading Spinner Styles */
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid rgba(29, 161, 242, 0.2);
+  border-top-color: #1da1f2;
+  animation: spin 1s infinite linear;
+  margin-left: 10px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

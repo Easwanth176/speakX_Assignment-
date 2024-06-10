@@ -1,0 +1,200 @@
+.tweets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50%;
+  overflow-y: hidden;
+  height: 100vh;
+  background-color: #f5f8fa;
+  padding: 20px;
+}
+
+.tweets::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.tweets::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #1da1f2;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  z-index: 10;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tweet-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-header h4 {
+  font-size: 18px;
+  color: #14171a;
+}
+
+.tweet-body .new-tweet {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.new-tweet textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.new-tweet button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-tweet button:hover {
+  background-color: #0d8bf2;
+}
+
+.tweet {
+  border-bottom: 1px solid #e1e8ed;
+  padding: 10px 0;
+}
+
+.tweet-content p {
+  margin: 10px 0;
+  color: #14171a;
+}
+
+.tweet-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.tweet-footer button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1da1f2;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.tweet-footer button:hover {
+  color: #0d8bf2;
+}
+
+.tweet-footer button .icon {
+  margin-right: 5px;
+}
+
+.tweet-footer button.like::before {
+  content: url('https://img.icons8.com/ios-glyphs/30/1da1f2/like.png');
+}
+
+.tweet-footer button.comment::before {
+  content: url('https://img.icons8.com/ios-glyphs/30/1da1f2/speech-bubble.png');
+}
+
+.tweet-footer button.retweet::before {
+  content: url('https://img.icons8.com/ios-glyphs/30/1da1f2/retweet.png');
+}
+
+.new-comment {
+  margin-top: 10px;
+}
+
+.new-comment textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.new-comment button {
+  padding: 5px 10px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-comment button:hover {
+  background-color: #0d8bf2;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  border-bottom: 1px solid #e1e8ed;
+  padding: 10px 0;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-header h5 {
+  font-size: 14px;
+  color: #14171a;
+}
+
+.comment-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #e0245e;
+  transition: color 0.3s ease;
+}
+
+.comment-header button:hover {
+  color: #c21b2d;
+}
+
+.comment-content p {
+  margin: 5px 0;
+  color: #14171a;
+}

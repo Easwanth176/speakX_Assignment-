@@ -1,0 +1,90 @@
+.explore-container {
+    width: 65%;
+    padding: 20px;
+    background-color: #f5f8fa;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .trending-list {
+    margin-top: 20px;
+  }
+  
+  .trend-item {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+  }
+  
+  .trend-item h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .trend-item p {
+    margin: 5px 0 0;
+    color: #657786;
+  }
+  .happening {
+    background-color: #f5f8fa;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.happening h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #14171a;
+}
+
+.trending-list {
+    margin-top: 20px;
+}
+
+.trend-item {
+    padding: 10px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.trend-item h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.trend-item p {
+    margin: 5px 0 0;
+    color: #657786;
+}
+
+/* Additional styles for different trend categories */
+.trend-item p:first-of-type {
+    font-weight: bold;
+    color: #14171a;
+}
+
+.trend-item p:nth-of-type(2) {
+    color: #1da1f2;
+}
+
+.trend-item p:nth-of-type(3) {
+    color: #e0245e;
+}
+
+.trend-item p:nth-of-type(4) {
+    color: #ffad1f;
+}

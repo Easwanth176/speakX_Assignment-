@@ -1,0 +1,85 @@
+.upgrade-container
+{
+    width: 65%;
+    background-color: #f5f8fa;
+
+}
+.upgrade-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f8fa;
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upgrade-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .upgrade-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .pricing-table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .plan {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .plan p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .plan ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .plan button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan button:hover {
+    background-color: #45a049;
+  }
+  

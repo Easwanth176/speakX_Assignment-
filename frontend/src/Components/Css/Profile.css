@@ -1,0 +1,80 @@
+.profile-container {
+    max-width: 65%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-container h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .profile-container span {
+    font-weight: bold;
+  }
+  
+  .tweets-list {
+    margin-top: 10px;
+  }
+  
+  .tweet {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  
+  .tweet p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .tweet ul {
+    margin-top: 5px;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .tweet li {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  button {
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1da1f2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0d8bf2;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

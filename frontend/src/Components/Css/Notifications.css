@@ -1,0 +1,34 @@
+/* Notifications.css */
+
+.notifications {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-icon {
+  margin-right: 10px;
+  color: #1da1f2;
+}
+
+.notification-content {
+  flex-grow: 1;
+}
+
+.notification-text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.notification-time {
+  margin: 0;
+  color: #aaa;
+  font-size: 0.9em;
+}

@@ -1,0 +1,161 @@
+.users-container {
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 25%;
+  max-width: 25%;
+  text-align: center;
+  overflow-y: auto; 
+  height: 100vh;
+  background-color: #f5f8fa;
+
+}
+
+.users-container::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.users-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+.user-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.users-container h1 {
+  font-size: 1.5rem;
+  color: #1da1f2;
+  margin-bottom: 20px;
+}
+
+.together {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 30px 20px;
+  margin-bottom: 10px;
+}
+
+.users-list {
+  display: grid;
+  gap: 20px;
+  overflow-y: auto; 
+  height: 53vh;
+  background-color: #ececec2d;
+}
+
+.users-list::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.users-list::-webkit-scrollbar-thumb {
+  background-color: #1da1f2;
+  border-radius: 10px;
+}
+
+.user-card {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.user-card img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.user-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-card p {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.user-card button {
+  width: 25%;
+  height: auto;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.user-card button:hover {
+  background-color: #0d8bf2;
+}
+
+.premium {
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  width: 100%;
+  height: auto;
+}
+
+.premium h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.premium p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.premium button {
+  width: 21%;
+  padding: 5px 0;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+button > a {
+  color: #fff; /* Makes the link text white */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.premium button:hover {
+  background-color: #0d8bf2;
+}
+.happening {
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.happening h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #14171a;
+}

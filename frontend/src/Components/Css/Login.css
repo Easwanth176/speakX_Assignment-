@@ -1,0 +1,84 @@
+.container {
+  background-color: #fff;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: solid 1px #dedede;
+  text-align: center;
+  margin: 120px auto;
+  padding: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+.container h3 {
+  margin-bottom: 20px;
+  margin-top: -10px;
+  font-size: 1.8rem;
+  color: #1da1f2;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 250px;
+}
+
+button:disabled {
+  background-color: #404040;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0d8bf2;
+}
+
+.error-message {
+  color: #f00;
+  margin-top: 5px;
+}
+
+.register {
+  margin-top: 20px;
+}
+
+.register p {
+  font-size: 14px;
+}
+
+.register p a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
