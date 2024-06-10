@@ -2,6 +2,11 @@
     width: 65%;
     padding: 20px;
     background-color: #f5f8fa;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  .explore-container::-webkit-scrollbar {
+    width: 8px;
   }
   
   .search-bar {

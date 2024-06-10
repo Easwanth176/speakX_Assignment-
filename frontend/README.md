@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Twitter Frontend
+## SpeakX Deployed Link
+```bash
+https://speakx.onrender.com/
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
 
-## Available Scripts
+1. Clone the repository:
+    ```bash 
+    git clone https://github.com/Easwanth176/SpeakX_Frontend.git
+    ```
 
-In the project directory, you can run:
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm start`
+3. Run the app:
+    ```bash
+    npm start
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Open the browser and go to [http://localhost:3000](http://localhost:3000)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+This is a simple frontend for Twitter. You can post tweets, like tweets, and retweet tweets. You can also see the tweets of the people you follow.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Sample usage with credentials:
+- Username: `speakx@gmail.com`
+- Password: `speakx@123`
 
-### `npm run build`
+<!-- Screenshots -->
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Home Page
+![image](https://github.com/Easwanth176/SpeakX_Frontend/assets/103351652/060c425f-b14a-42c2-a302-bd425ede0e25)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Profile Page
+![image](https://github.com/Easwanth176/SpeakX_Frontend/assets/103351652/e71d7f2e-f59e-4552-b389-7c5aea4856cd)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Explore Page
+![image](https://github.com/Easwanth176/SpeakX_Frontend/assets/103351652/a2b7449d-2b2c-4fe8-a514-c1a3167d6abc)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Premium Page
+![image](https://github.com/Easwanth176/SpeakX_Frontend/assets/103351652/a5c85ca3-eab5-4183-ab8d-ed5874a12943)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Explaining the Features -->
+## Features
 
-## Learn More
+- **Post tweets**: Share your thoughts with the world.
+- **Like tweets**: Show appreciation for tweets you enjoy.
+- **Retweet tweets**: Share tweets with your followers.
+- **Follow users**: Keep up with your favorite people.
+- **See tweets of the people you follow**: Stay updated with your network.
+- **See your tweets**: View your own tweet history.
+- **See your followers**: Check who is following you.
+- **See who you are following**: Keep track of people you follow.
+- **See the tweets of a user**: View tweets from specific users.
+- **See the followers of a user**: See who follows a particular user.
+- **See who a user is following**: Check the following list of a user.
+- **See the tweets you liked**: View your liked tweets.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Technologies Used
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- Apollo Client
+- GraphQL
+- CSS

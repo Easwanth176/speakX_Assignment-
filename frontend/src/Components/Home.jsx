@@ -50,8 +50,7 @@ const Home = () => {
     <div className="home-container">
       <div className="left-container">
         <Sidebar />
-        <button onClick={handleLogout}>Logout</button>
-      </div>
+        <button className="leftiii" onClick={handleLogout}>Logout</button>      </div>
       {Component()}
       <Users />
     </div>

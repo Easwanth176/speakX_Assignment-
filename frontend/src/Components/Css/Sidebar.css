@@ -1,12 +1,13 @@
 .sidebar {
-  min-width: 25%;
-  max-width: 25%;
+  min-width: 20%;
+  max-width: 20%;
   border-radius: 10px;
   top: 20px;
 }
 
 .sidebar img {
-  width: 80px;
+  margin-left: -50px;
+  width: 100px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -17,19 +18,22 @@
 }
 
 .user-side h3 {
-  font-size: 18px;
-  margin: 0;
+  font-size: 22px;
+  margin-left: -60px;
+  margin-top: -10px;
 }
 
 .user-side p {
-  font-size: 14px;
+  font-size: 15px;
   color: #657786;
-  margin: 0;
+  margin-left: -60px;
+  margin-top: -10px;
 }
 
 nav ul {
-  font-size: 26px;
+  font-size: 22px;
   list-style-type: none;
+  font-weight: 480;
   padding: 0;
 }
 
@@ -43,7 +47,7 @@ nav ul li a {
   align-items: center;
   color: #14171a;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
@@ -58,8 +62,11 @@ nav ul li a:hover {
 }
 
 .tweet-button button {
-  width: 100%;
+  margin-left:-60px;
+  width: 150px;
+  height: 50px;
   padding: 10px;
+  font-size: 20px;
   background-color: #1da1f2;
   color: #fff;
   border: none;
