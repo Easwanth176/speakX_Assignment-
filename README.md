@@ -44,7 +44,8 @@ Sample usage with credentials:
 
 
 ### Profile Page
-![image](https://github.com/Easwanth176/SpeakX_Frontend/assets/103351652/e71d7f2e-f59e-4552-b389-7c5aea4856cd)
+![image](https://github.com/Easwanth176/speakX_Assignment-/assets/103351652/5e1b7bae-8918-411c-a35b-3c8e21d4f264)
+
 
 
 ### Explore Page
